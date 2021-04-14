@@ -1,6 +1,9 @@
-# your code here
-for smth in 'a'*10:
-    # your code here
+n = 10
+alphabet = ''
+for i in range(n):
+    # вводим строку (одну из 10)
     user_input = input()
-# your code here
+    for ch in user_input.lower():
+        if not ch in alphabet.lower():
+            alphabet += ch.lower()
 print(alphabet)
