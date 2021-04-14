@@ -1,6 +1,9 @@
-# your code here
-for smth in 'a'*10:
-    user_input = input()
-    # your code here
-    if my_cool_condition == True:
-        print(form, lemma)
+n = 10
+l = []
+for i in range(n):
+    s = input()
+    s_ = s.split()
+    l.append(s_)
+for inp in l:
+    if inp[1] != inp[2] and not inp[1].startswith(inp[2]):
+       print(inp[1], inp[2])
