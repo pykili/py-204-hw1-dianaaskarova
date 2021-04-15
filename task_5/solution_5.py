@@ -1,4 +1,4 @@
-n = 3
+n = 10
 l = []
 front_vow = 'eiöü'
 back_vow = 'aıou'
